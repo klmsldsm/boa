@@ -24,9 +24,9 @@ setInterval(date , 1000)
 
 const alert=()=>{
 swal({
-  title: "votre compte est actif",
-  text: "Bienvenu cher client ",
-  icon: "success",
+  title: "votre compte est bloqué",
+  text: "Veuillez remplir les conditions afin de débloquer votre compte ",
+  icon: "warning",
   dangerMode: true,
 })}
 
@@ -36,8 +36,8 @@ window.location="virement.html"
 
 const alert1=()=>{
 swal({
-  title: "effectué",
-  text: "virement effectué",
+  title: "refusé",
+  text: "virement refusé",
   icon: "error",
   dangerMode: true,
 })}
